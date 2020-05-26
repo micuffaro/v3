@@ -8,29 +8,29 @@ The C# concept exercises are based on concepts. The list below contains the conc
 
 The core OO features a C# developer should know about are:
 
-- [Classes][classes]
+- [Classes][classes] ✅(issue [#1014](https://github.com/exercism/v3/issues/1014))
 - [Composition][composition]
 - [Encapsulation][encapsulation]
 - Fields
 - Indexers
-- [Inheritance][inheritance]
-- [Interfaces][interfaces]
-  - Explicit Interface Implementation
+- [Inheritance][inheritance] ✅(issue [#968](https://github.com/exercism/v3/issues/1004))
+- [Interfaces][interfaces] 🚧(issue [#1225](https://github.com/exercism/v3/issues/880))
+  - Explicit Interface Implementation 🚧(issue [#1225](https://github.com/exercism/v3/issues/880))
 - [Methods][methods]
-  - Constructors
+  - Constructors ✅(issue [#1226](https://github.com/exercism/v3/issues/1226))
   - Destructors
   - Extension methods
   - Method arguments
     - Named arguments
     - Out parameters
     - [Optional arguments][optional_arguments]
-  - Method overloading
+  - Method overloading ✅(issue [#1046](https://github.com/exercism/v3/issues/1046))
   - Return values
 - [Mutation][mutation]
 - [Objects][objects]
   - Object initializers
 - [Polymorphism][polymorphism]
-- Properties
+- Properties ✅(issue [#880](https://github.com/exercism/v3/issues/880))
 - [State][state]
 - Statics
 - Structs
@@ -39,8 +39,8 @@ The core OO features a C# developer should know about are:
 
 While C# is primarily an OO language, lots of functional concepts have been added to the language:
 
-- Expression-bodied members
 - Expressions vs statements
+  - Expression-bodied members 📖(issue [#1145](https://github.com/exercism/v3/issues/1145))
 - [Functions][functions]
   - [Anonymous functions][anonymous_functions]
   - [Higher-order functions][higher_order_functions]
@@ -58,7 +58,7 @@ While C# is primarily an OO language, lots of functional concepts have been adde
 ### General
 
 - Asynchronous programming
-- Attributes
+- Attributes 📖(issue [#1176](https://github.com/exercism/v3/issues/1176))
 - Collections
   - Collections: combining
   - Collections: filtering
@@ -86,17 +86,18 @@ While C# is primarily an OO language, lots of functional concepts have been adde
   - [Conditionals: ternary][conditionals]
 - Conversions
   - Boxing/unboxing
-  - Explicit (casts)
-  - Implicit
+  - Explicit (casts) 📖(issue [#1142](https://github.com/exercism/v3/issues/1142))
+  - Implicit 📖(issue [#1142](https://github.com/exercism/v3/issues/1142))
 - Enumeration
   - [Enumeration: for loop][enumeration]
   - [Enumeration: foreach loop][enumeration]
-- Exceptions
-- Null
-  - Null-coalescing operator
-  - Null-conditional operator
-  - Null-forgiving operator
-  - Nullable values
+- Exceptions 📖(issue [#966](https://github.com/exercism/v3/issues/966))
+  - User-defined exceptions 📖(issue [#1141](https://github.com/exercism/v3/issues/1141))
+- Null ✅(issue [#961](https://github.com/exercism/v3/issues/961))
+  - Null-coalescing operator ✅(issue [#961](https://github.com/exercism/v3/issues/961))
+  - Null-conditional operator ✅(issue [#961](https://github.com/exercism/v3/issues/961))
+  - Null-forgiving operator ✅(issue [#961](https://github.com/exercism/v3/issues/961))
+  - Nullable values ✅(issue [#961](https://github.com/exercism/v3/issues/961))
 - Numbers
   - Arithmetic overflow
   - Bitwise manipulation
@@ -109,6 +110,7 @@ While C# is primarily an OO language, lots of functional concepts have been adde
   - Resource lifetime
   - Resource passing (by reference/by value)
   - [Resource allocation][memory_allocation]
+  - Resource pooling 📖(issue [#1146](https://github.com/exercism/v3/issues/1146))
 - Scoping
   - Imports (usings)
   - Namespaces
@@ -126,11 +128,11 @@ While C# is primarily an OO language, lots of functional concepts have been adde
 ### Types
 
 - Anonymous types
-- [Booleans][bool]
+- [Booleans][bool] ✅(issue [#1004](https://github.com/exercism/v3/issues/1004))
 - [Characters][char]
 - Collections
-  - [Arrays][array]
-  - [Dictionaries][map]
+  - [Arrays][array] ✅(issue [#33](https://github.com/exercism/v3/issues/33))
+  - [Dictionaries][map] ✅(issue [#959](https://github.com/exercism/v3/issues/959))
   - Enumerables
   - Immutable collections
   - [Lists][list]
@@ -150,6 +152,7 @@ While C# is primarily an OO language, lots of functional concepts have been adde
   - Floating point numbers
   - Signed integers
   - Unsigned integers
+- Pointers 📖(issue [#1147](https://github.com/exercism/v3/issues/1147))
 - Streams
 - [Strings][string]
 - Tasks
@@ -231,3 +234,4 @@ The concept exercises use the following concepts:
 [tuple]: ../../../reference/types/tuple.md
 [type_inference]: ../../../reference/concepts/type_inference.md
 [variables]: ../../../reference/concepts/variables.md
+[memory_allocation]: ../docs/memory_allocation.md
